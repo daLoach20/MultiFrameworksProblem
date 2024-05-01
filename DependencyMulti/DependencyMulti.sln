@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "DependencyMulti", "DependencyMulti\DependencyMulti.vbproj", "{B61071F8-66BA-4A89-A74C-6CB821CEF5D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net48", "Net48", "{48157791-5C3C-4E67-9DD9-8554158B764B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dependency", "..\Dependency\Dependency\Dependency.vbproj", "{5788B594-0AE7-41FC-B63D-0B411F6256EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net60", "Net60", "{99069176-7E33-4100-9A57-28D50A6D3831}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Dependency", "..\Dependency.Core\Dependency\Dependency.vbproj", "{9871E9F0-F28B-459E-890C-1FDFD388AD7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61071F8-66BA-4A89-A74C-6CB821CEF5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61071F8-66BA-4A89-A74C-6CB821CEF5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61071F8-66BA-4A89-A74C-6CB821CEF5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61071F8-66BA-4A89-A74C-6CB821CEF5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5788B594-0AE7-41FC-B63D-0B411F6256EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5788B594-0AE7-41FC-B63D-0B411F6256EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5788B594-0AE7-41FC-B63D-0B411F6256EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5788B594-0AE7-41FC-B63D-0B411F6256EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9871E9F0-F28B-459E-890C-1FDFD388AD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9871E9F0-F28B-459E-890C-1FDFD388AD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9871E9F0-F28B-459E-890C-1FDFD388AD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9871E9F0-F28B-459E-890C-1FDFD388AD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5788B594-0AE7-41FC-B63D-0B411F6256EE} = {48157791-5C3C-4E67-9DD9-8554158B764B}
+		{9871E9F0-F28B-459E-890C-1FDFD388AD7A} = {99069176-7E33-4100-9A57-28D50A6D3831}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7671F51E-E090-4E5F-A180-B794B7BDEEE9}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.elliottelectric.com/tfs/elliottdefaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DependencyMulti\\DependencyMulti.vbproj
+		SccProjectName1 = DependencyMulti
+		SccLocalPath1 = DependencyMulti
+		SccProjectUniqueName2 = ..\\Dependency\\Dependency\\Dependency.vbproj
+		SccProjectTopLevelParentUniqueName2 = DependencyMulti.sln
+		SccProjectName2 = ../Dependency/Dependency
+		SccLocalPath2 = ..\\Dependency\\Dependency
+		SccProjectUniqueName3 = ..\\Dependency.Core\\Dependency\\Dependency.vbproj
+		SccProjectTopLevelParentUniqueName3 = DependencyMulti.sln
+		SccProjectName3 = ../Dependency.Core/Dependency
+		SccLocalPath3 = ..\\Dependency.Core\\Dependency
+	EndGlobalSection
+EndGlobal

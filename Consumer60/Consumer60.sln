@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer60", "Consumer60\Consumer60.csproj", "{12FE6DB2-4F89-4659-B59D-8ADE568142D2}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "DependencyMulti", "..\DependencyMulti\DependencyMulti\DependencyMulti.vbproj", "{67771368-E7A8-4912-A055-9DB564443EF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12FE6DB2-4F89-4659-B59D-8ADE568142D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FE6DB2-4F89-4659-B59D-8ADE568142D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FE6DB2-4F89-4659-B59D-8ADE568142D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FE6DB2-4F89-4659-B59D-8ADE568142D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67771368-E7A8-4912-A055-9DB564443EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67771368-E7A8-4912-A055-9DB564443EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67771368-E7A8-4912-A055-9DB564443EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67771368-E7A8-4912-A055-9DB564443EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB496C63-FC60-474A-956F-9B7E8C350210}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.elliottelectric.com/tfs/elliottdefaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Consumer60\\Consumer60.csproj
+		SccProjectName1 = Consumer60
+		SccLocalPath1 = Consumer60
+		SccProjectUniqueName2 = ..\\DependencyMulti\\DependencyMulti\\DependencyMulti.vbproj
+		SccProjectName2 = ../DependencyMulti/DependencyMulti
+		SccLocalPath2 = ..\\DependencyMulti\\DependencyMulti
+	EndGlobalSection
+EndGlobal

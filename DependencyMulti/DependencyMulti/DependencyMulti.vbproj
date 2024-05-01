@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RootNamespace>DependencyMulti</RootNamespace>
+    <TargetFrameworks>netstandard2.0;net6.0-windows;net48</TargetFrameworks>
+	  <!--<TargetFrameworks>net6.0</TargetFrameworks>-->
+  </PropertyGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<ProjectReference Include="..\..\Dependency\Dependency\Dependency.vbproj" />
+	</ItemGroup>
+	
+    <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+	    <ProjectReference Include="..\..\Dependency\Dependency\Dependency.vbproj" />
+    </ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
+		<ProjectReference Include="..\..\Dependency.Core\Dependency\Dependency.vbproj" />
+	</ItemGroup>
+
+</Project>
